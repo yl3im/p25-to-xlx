@@ -19,7 +19,8 @@ Replace `1234567` and `N0CALL` with your DMR ID and callsign. Edit the XLX serve
 
 Run the following commands, each in its own "window" or use screen or tmux:
 
-```P25Reflector P25Reflector.ini
+```
+P25Reflector P25Reflector.ini
 P25Gateway P25Gateway.ini
 /opt/Analog_Bridge/Analog_Bridge Analog_Bridge_DMR.ini
 /opt/Analog_Bridge/Analog_Bridge Analog_Bridge_P25.ini

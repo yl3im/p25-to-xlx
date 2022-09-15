@@ -5,7 +5,8 @@
 I mostly followed this manual: https://www.lucifernet.com/2020/01/08/build-a-p25-dmr-cross-mode-bridge/
 
 Install DVSwitch and P25 binaries:
-```wget http://dvswitch.org/buster
+```
+wget http://dvswitch.org/buster
 chmod +x buster
 ./buster
 apt update

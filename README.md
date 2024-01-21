@@ -12,7 +12,7 @@ chmod +x buster
 apt update
 apt install dwswitch
 
-git clone https://github.com/nostar/DVReflectors
+git clone https://github.com/nostar/DVReflectors.git
 cd DVReflectors/P25Reflector
 make && make install
 

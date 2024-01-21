@@ -12,10 +12,16 @@ chmod +x buster
 apt update
 apt install dwswitch
 
+git clone https://github.com/nostar/DVReflectors
+cd DVReflectors/P25Reflector
+make && make install
+
+cd
 git clone https://github.com/g4klx/P25Clients.git
 cd P25Clients
 make && make install
 ```
+
 Replace `1234567` and `N0CALL` with your DMR ID and callsign. Edit the XLX server address and P25 talkgroup number accordingly.
 
 Run the following commands, each in its own "window" or use screen or tmux:

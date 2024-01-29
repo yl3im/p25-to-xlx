@@ -10,7 +10,7 @@ wget http://dvswitch.org/buster
 chmod +x buster
 ./buster
 apt update
-apt install dwswitch
+apt install dvswitch
 
 git clone https://github.com/nostar/DVReflectors.git
 cd DVReflectors/P25Reflector
